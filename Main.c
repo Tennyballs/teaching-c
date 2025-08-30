@@ -1,3 +1,4 @@
+// (return / variable) types
 // void -> 0/0
 
 // short (int / 2) -> a shorter whole number
@@ -16,5 +17,14 @@
 // return = 0 is a success
 int main()
 {
+    int a = add(1, 2); // Screams because add is not defined above the main function.
+
     return 0;
+}
+
+int add(int argumentA, int argumentB) // returnType functionName(arguments)
+{
+    int c = argumentA + argumentB;
+
+    return c; // return an object with the type of returnType
 }

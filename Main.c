@@ -10,6 +10,9 @@
 // char (character) -> 0 to 255 values (256 unique values) (8 bits) or one character like 'a' (SINGLE CHARACTER)
 // char *variableName -> "My Name Is Michael Or something idk" (STRING / Array of characters)
 
+// forward declaration
+int add(int argumentA, int argumentB);
+
 // rules for the main function
 // main function requires int at the start
 // it is to declare it is a "variable" that returns a value, in this case (int)

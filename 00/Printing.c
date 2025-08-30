@@ -7,4 +7,7 @@
 int main()
 {
     printf("Hello World!\n"); // "\n" means new line
+
+    // ending the program with a success
+    return 0;
 }

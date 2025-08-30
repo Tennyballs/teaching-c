@@ -22,7 +22,7 @@ int main()
 {
     int a = add(1, 2); // Screams because add is not defined above the main function.
 
-    return 0;
+    return 0; // success exit code
 }
 
 int add(int argumentA, int argumentB) // returnType functionName(arguments)
